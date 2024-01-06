@@ -1,0 +1,89 @@
+ 
+ .bg{
+  background-color: white;
+  height: 800px;
+}
+  body{
+  /* background-image: url("C:\Users\hp\Downloads\bg89jpg.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+} 
+.background-image-container{
+  /* background-image: url("C:\Users\hp\Downloads\bg89jpg.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ .App{
+  background-color:linear-gradient(rgb(186, 54, 54), rgb(206, 21, 21), rgb(171, 129, 129))
+} 
+/* -----------------topicquize page------------- */
+.topicdiv{
+  background-color:rgb(169, 27, 44)
+}
+.topicdivh1:hover{
+  font: weight 600px;;
+  font-size:larger;
+  /* font-style:italic; */
+  color:rgb(154, 87, 87)
+}
+
+
+/* ----------   anwer tag     ------------- */
+.hoverOption:hover{
+ font-weight: bold
+}
+
+/*  */
+.li-option-tag{
+  list-style-type: none;
+}
+
+table, th, td {
+  border:1px solid black;
+}
+
+.finalresult{
+  /* position:absolute;
+   right:100px; 
+   bottom:10px */
+  margin-bottom: 50px;
+  float: right;
+  margin-right: 100px;
+  border-radius: 20px;
+
+}
+.finalresult:hover{
+  background-color:rgb(35, 135, 92)
+}
+
+.navbar {
+  /* display: none; */
+  max-width: 100%;
+}
+.navbar > div {
+  /* display: none; */
+  max-width: 90%;
+}
+.navbar .options {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+}
+@media (max-width: 560px) {
+  .navbar .title {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.75rem; /* 28px */
+
+  }
+  .navbar .options {
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem; /* 24px */
+  }
+  .header > h1 {
+    font-size: 2.25rem; /* 36px */
+    line-height: 2.5rem; /* 40px */
+  }
+}
+.header {
+  max-width: 100%;
+}
